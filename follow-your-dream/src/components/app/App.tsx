@@ -1,4 +1,5 @@
-import Navbarexample from '../navbar/Navbar';
+import Navbar from '../navbar/Navbar';
+import Carousel from '../carousel/Carousel';
 import Info from '../../pages/Info';
 import Home from '../../pages/Home';
 import Reviews from '../../pages/Reviews';
@@ -11,7 +12,8 @@ function App(): JSX.Element {
 
   return (
     <>
-      <Navbarexample />
+      <Navbar />
+      <Carousel />
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
