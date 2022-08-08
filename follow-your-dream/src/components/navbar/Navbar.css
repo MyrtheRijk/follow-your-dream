@@ -14,16 +14,16 @@
     margin: 0px 150px;
 } 
 
-.bd-placeholder-img {
+/* .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-}
+} */
 
 .container{
-    text-align:center;
+    text-align:center; 
 }
 
 .navbar-toggle {

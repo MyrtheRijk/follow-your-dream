@@ -5,7 +5,7 @@ import Home from '../../pages/Home';
 import Reviews from '../../pages/Reviews';
 import Dreams from '../../pages/Dreams';
 import Contact from '../../pages/Contact';
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App(): JSX.Element {

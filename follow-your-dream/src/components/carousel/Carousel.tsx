@@ -1,22 +1,39 @@
 import './Carousel.css';
-import hikers from '../../assets/images/hikers.jpg';
-import ropes from '../../assets/images/man-ropes.jpg';
-import town from '../../assets/images/woman-above-town.jpg';
+import traveler from '../../assets/images/traveler.jpg';
+import marathon from '../../assets/images/marathon.jpg';
+import guitar from '../../assets/images/guitar.jpg';
+import HeaderTitle from '../../components/headertitle/HeaderTitle';
 
 export default function Carousel(): JSX.Element {
     return (
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={hikers} className="d-block w-100" alt="Two people hiking in mountains" />
+      <div>
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+          <HeaderTitle />
+          <div className="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div className="carousel-item">
-            <img src={ropes} className="d-block w-100" alt="Man doing workout in gym with ropes" />
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={traveler} className="d-block w-100" alt="hikers" />
+            </div>
+            <div className="carousel-item">
+              <img src={marathon} className="d-block w-100" alt="ropes" />
+            </div>
+            <div className="carousel-item">
+              <img src={guitar} className="d-block w-100" alt="town" />
+            </div>
           </div>
-          <div className="carousel-item">
-            <img src={town} className="d-block w-100" alt="Women looking over a town" />
-          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     )
-}
+} 
