@@ -1,12 +1,12 @@
-import './Carousel.css';
 import traveler from '../../assets/images/traveler.jpg';
 import marathon from '../../assets/images/marathon.jpg';
 import guitar from '../../assets/images/guitar.jpg';
 import HeaderTitle from '../../components/headertitle/HeaderTitle';
+import './Carousel.css';
 
 export default function Carousel(): JSX.Element {
     return (
-      <div>
+      <div className="carousel-container">
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
           <HeaderTitle />
           <div className="carousel-indicators">
@@ -16,13 +16,13 @@ export default function Carousel(): JSX.Element {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={traveler} className="d-block w-100" alt="hikers" />
+              <img src={traveler} className="d-block w-100 img-item" alt="hikers" />
             </div>
             <div className="carousel-item">
-              <img src={marathon} className="d-block w-100" alt="ropes" />
+              <img src={marathon} className="d-block w-100 img-item" alt="ropes" />
             </div>
             <div className="carousel-item">
-              <img src={guitar} className="d-block w-100" alt="town" />
+              <img src={guitar} className="d-block w-100 img-item" alt="town" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Home from '../../pages/Home';
-import Info from '../../pages/Info';
-import Dreams from '../../pages/Dreams';
-import Reviews from '../../pages/Reviews';
-import Contact from '../../pages/Contact';
+import Home from '../../pages/home/Home';
+import Info from '../../pages/info/Info';
+import Dreams from '../../pages/dreams/Dreams';
+import Reviews from '../../pages/reviews/Reviews';
+import Contact from '../../pages/contact/Contact';
 
 function App(): JSX.Element {
 

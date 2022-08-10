@@ -21,5 +21,3 @@ export default function Navbar(): JSX.Element {
       </nav>
     )
 }
-
-{/* <li className="nav-item"><Link to="/dreams" className="nav-link text-dark">Dreams</Link></li> */}

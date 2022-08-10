@@ -3,29 +3,29 @@
     z-index: 1;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(5, 5, 5);
-    top: 21%;
+    color: rgb(255, 255, 255);
+    top: 40%;
     text-align: center;
 }
 
 
 
 @media (min-width: 768px) {
-    .first-title {
+    #first-title{
         font-size: 60px;
-        margin: 10px;
+        margin: 20px;
     }
-    .second-title {
+    #second-title {
         font-size: 30px;
         padding: 0px 0px 20px 0px;
     }
 }
 
 @media (max-width: 768px) {
-    .first.title {
-        font-size: 30px;
+    #first-title {
+        font-size: 25px;
     }
-    .second.title {
-        font-size: 5px;
+    #second-title {
+        font-size: 15px;
     }
 }
