@@ -8,12 +8,24 @@
     text-align: center;
 }
 
-.first-title {
-    font-size: 60px;
-    margin: 10px;
+
+
+@media (min-width: 768px) {
+    .first-title {
+        font-size: 60px;
+        margin: 10px;
+    }
+    .second-title {
+        font-size: 30px;
+        padding: 0px 0px 20px 0px;
+    }
 }
 
-.second-title {
-    font-size: 30px;
-    padding: 0px 0px 20px 0px;
+@media (max-width: 768px) {
+    .first.title {
+        font-size: 30px;
+    }
+    .second.title {
+        font-size: 5px;
+    }
 }
