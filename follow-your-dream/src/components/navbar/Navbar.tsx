@@ -12,9 +12,9 @@ export default function Navbar(): JSX.Element {
           </button>
           <div className="collapse navbar-collapse ms-auto" id="navbarCollapse">
             <ul className="navbar-nav mb-2 mb-md-0 ms-auto">
-              <li className="nav-item"><Link to="/info" className="nav-link text-dark">Info</Link></li>
-              <li className="nav-item"><Link to="/reviews" className="nav-link text-dark">Reviews</Link></li>
-              <li className="nav-item"><Link to="/contact" className="nav-link text-dark">Contact</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link text-dark">Info</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link text-dark">Reviews</Link></li>
+              <li className="nav-item"><Link to="#" className="nav-link text-dark">Contact</Link></li>
             </ul>
           </div>
         </div>
