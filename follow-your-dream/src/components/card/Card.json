@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Finish the marathon",
+        "hours": 38,
+        "info": "blablabla"
+    },
+    {
+        "id": 2,
+        "name": "Become a writer",
+        "hours": 64,
+        "info": "blablabla"
+    },
+    {
+        "id": 3,
+        "name": "Play the guitar",
+        "hours": 34,
+        "info": "blablabla"
+    },
+    {
+        "id": 4,
+        "name": "Learn a language",
+        "hours": 17,
+        "info": "blablabla"
+    },
+    {
+        "id": 5,
+        "name": "Get muscular",
+        "hours": 58,
+        "info": "blablabla"
+    },
+    {
+        "id": 6,
+        "name": "Travel the world",
+        "hours": 48,
+        "info": "blablabla"
+    }
+]
