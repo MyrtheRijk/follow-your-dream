@@ -5,7 +5,7 @@ import CardOptions from './CardOptions';
 export default function CardDream(): JSX.Element {
   return (
     <>
-      <Row md={2} xs={1} lg={3} className="g-3">
+      <Row xs={1} md={2}>
         {cardOptions.map(item => (
           <Col key={item.id}>
             <CardOptions {...item}/>

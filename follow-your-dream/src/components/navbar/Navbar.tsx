@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import './Navbar.css';
 import '../../fonts/Fonts.css';
 
@@ -6,7 +6,7 @@ export default function Navbar(): JSX.Element {
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-white sticky-top">
         <div className="container">
-          <Link className="navbar-brand text-decoration-none brand-title" to="/">Follow Your Dream</Link>
+          <NavLink className="navbar-brand text-decoration-none brand-title" to="/">Follow Your Dream</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

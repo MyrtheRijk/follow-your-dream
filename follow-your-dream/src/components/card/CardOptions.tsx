@@ -1,24 +1,24 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './Card.css';
 
 type CardOptionsProps = {
     id: number,
     name: string,
     hours: number,
-    info: string
+    info: string,
+    img: string
 }
 
-export default function CardOptions({ id, name, hours, info }: CardOptionsProps) {
+export default function CardOptions({ id, name, hours, info, img }: CardOptionsProps) {
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+        <Card className="text-center mx-auto card-container">
+            <Card.Img variant="top" src={img} className="card-img"/>
+            <Card.Body className="d-flex flex-column">
+                <Card.Title className="justify-content-space-between 
+                align-items-center mb-4 text-center">{name}</Card.Title>
+                <Card.Text>{info}</Card.Text>
+                <Button variant="primary">Start</Button>
             </Card.Body>
         </Card>
     )
