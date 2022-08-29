@@ -1,43 +1,43 @@
 [
     {
-        "id": 1,
+        "idDream": 1,
         "name": "Finish a marathon",
-        "hours": 38,
+        "hours": "38 Hours",
         "info": "To run the marathon, you have to practice a lot. We give you the assets to get in good condition, eat healty and practice on times when you feel best. Are you ready to reach your goal?",
         "img": "/assets/images/marathon.jpg"
     },
     {
-        "id": 2,
+        "idDream": 2,
         "name": "Become a writer",
-        "hours": 64,
+        "hours": "38 Hours",
         "info": "Writing makes you able to speak to your readers. It doens't matter what kind of genre you choose, we will help you with finding the right tools to become the writer you want to be.",
         "img": "../../assets/images/writer.jpg"
     },
     {
-        "id": 3,
+        "idDream": 3,
         "name": "Play the guitar",
-        "hours": 34,
+        "hours": "38 Hours",
         "info": "Is it your dream to impress your friends by playing the coolest hits on the guitar around a campfire? Or by singing your favorite songs while playing on the guitar? Everyting is possible when we help you with reaching this goal.",
         "img": "../../assets/images/guitar.jpg"
     },
     {
-        "id": 4,
+        "idDream": 4,
         "name": "Learn a language",
-        "hours": 17,
+        "hours": "38 Hours",
         "info": "By learning a language, you are able to speak to the locals on holiday. You'll also learn a lot about the culture when learning a language. We give you the tools to learn speaking and reading the language in a time frame thats fits you.",
         "img": "../../assets/images/languages.jpg"
     },
     {
-        "id": 5,
+        "idDream": 5,
         "name": "Get muscular",
-        "hours": 58,
+        "hours": "38 Hours",
         "info": "Be able to show off your abs to your partner or feel the strength in your body when you lift a heavy halter. By practicing a lot and learning new techniques, you'll see the muscless grow before your eyes!",
         "img": "../../assets/images/muscular.jpg"
     },
     {
-        "id": 6,
+        "idDream": 6,
         "name": "Travel the world",
-        "hours": 48,
+        "hours": "38 Hours",
         "info": "Visit the Eiffel Tower in Paris or the Chinese Wall in Beijing. You choose where you wan't to go, but we give you the assets to know how to succeed your trip. Are you ready te become a real traveler?",
         "img": "../../assets/images/traveler.jpg"
     }

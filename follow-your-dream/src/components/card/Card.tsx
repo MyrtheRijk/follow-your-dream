@@ -1,13 +1,13 @@
 import { Col, Row } from 'react-bootstrap';
-import cardOptions from './Card.json';
+import cardData from '../../data/Card.json';
 import CardOptions from './CardOptions';
 
 export default function CardDream(): JSX.Element {
   return (
     <>
       <Row xs={1} md={2}>
-        {cardOptions.map(item => (
-          <Col key={item.id}>
+        {cardData.map(item => (
+          <Col key={item.idDream}>
             <CardOptions {...item}/>
           </Col>
         ))}

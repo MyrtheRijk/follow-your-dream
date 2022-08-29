@@ -1,24 +1,32 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
+import cards from '../../data/Card.json'
+import { Link, useParams } from 'react-router-dom'
 import './Card.css';
 
 type CardOptionsProps = {
-    id: number,
+    idDream: number,
     name: string,
-    hours: number,
+    hours: string,
     info: string,
     img: string
 }
 
-export default function CardOptions({ id, name, hours, info, img }: CardOptionsProps) {
+export default function CardOptions({ idDream, name, hours, info, img }: CardOptionsProps) {
+    const { id } = useParams();
+
     return (
-        <Card className="text-center mx-auto card-container">
+        <Card className="mx-auto card-container">
             <Card.Img variant="top" src={img} className="card-img"/>
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="justify-content-space-between 
-                align-items-center mb-4 text-center">{name}</Card.Title>
+                <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
+                    <span className="fs-2">{name}</span>
+                    <span className="ms-2 text-secondary">{hours}</span>
+                </Card.Title>
                 <Card.Text>{info}</Card.Text>
-                <Button variant="primary">Start</Button>
+                <article key={idDream}>
+                    <Link to={`/dreams/${idDream}`}><Button variant="primary" key={id}>Start</Button></Link>
+                </article>
             </Card.Body>
         </Card>
     )
