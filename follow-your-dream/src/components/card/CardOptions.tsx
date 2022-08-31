@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
-import cards from '../../data/Card.json'
 import { Link, useParams } from 'react-router-dom'
 import './Card.css';
 

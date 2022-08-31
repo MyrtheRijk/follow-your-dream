@@ -1,10 +1,17 @@
 {
-    "general": [
+    "questions": [
         {
             "questionId": 1,
             "question1": "How much time would you like to spend?",
             "question2": "On which days do you have time?",
             "question3": "How much experience do you have?"
         }
+    ],
+
+    "": [
+        {
+
+        }
     ]
+
 }
